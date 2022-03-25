@@ -1,5 +1,11 @@
 'use strict';
- 
+
+const answer = []
+answer[0] = prompt("Напиши свое имя?");
+answer[1] = prompt("Напиши свою фамилию?");
+answer[2] = prompt("Сколько тебе лет?");
+
+
 const HEADER = document.querySelector('header');
 const MAIN = document.querySelector('main');
 const ImagesArr = Array.from(MAIN.querySelectorAll('img'));

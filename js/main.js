@@ -3,7 +3,7 @@
 
 <!-- modal window with prompt method on js -->
 const nameUser = prompt("Привет, как тебя зовут?", "");
-alert("Рад вас приветствовать на моём первом сайте, "+ nameUser);
+alert("Рад вас приветствовать тебя на моём первом сайте, "+ nameUser);
 
 
 const HEADER = document.querySelector('header');

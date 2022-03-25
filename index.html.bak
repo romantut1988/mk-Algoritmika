@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en_US">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <!-- title and description -->
+        <title>ALGORITMIKA Front-End</title>
+        <meta name="description" content="Learn - to create an amazing web applications">
+
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="style/style.css" type="text/css">
+
+        <!-- icons -->
+        <link rel="icon" href="favicon.png"> <!--32х32-->
+
+        <link rel="apple-touch-icon" href="src/icons/touch-icon-iphone.png"> <!--60х60-->
+        <link rel="apple-touch-icon" sizes="76x76" href="src/icons/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="src/icons/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="src/icons/touch-icon-ipad-retina.png">
+
+        <!-- open graph -->
+        <meta property="og:title" content="ALGORITMIKA Front-End" />
+
+        <meta property='og:type' content="article" /> <!-- if not audio and not video -->
+
+        <meta property="og:url" content="https://algoritmika.org/" />
+        <meta property="og:image" content="src/icons/og.png" /> <!-- OG image is 1200×630 pixels  -->
+
+        <meta property='og:site_name' content="algoritmika.org" /> <!-- not important -->
+        <meta property='og:description' content="Learn - to create an amazing web applications" /> <!-- not important -->
+        <meta property="og:locale" content="en_US" /> <!-- default: "en_US" -->
+
+    </head>
+
+    <body>
+		
+		<!-- CUSTOMIZE background-color -->
+        <header style="background-color: #ffffff;">
+			<!-- CUSTOMIZE img src -->
+            <img src="./src/images/logo.svg" alt="logo">
+			
+			<!-- CUSTOMIZE color -->
+            <div style="color: #b05cc1;">Algoritmika</div>
+            <nav>
+				<ul>
+					<li>
+						<!-- CUSTOMIZE button-1,2,3; hover-1,2,3; color; background-color; href -->
+						<a class="button-1 hover-1" style="color: #ffffff; background-color: #602b7a;" href="#" target="_blank">Page1</a>
+					</li>
+					<li>
+						<!-- CUSTOMIZE button-1,2,3; hover-1,2,3; color; background-color; href -->
+						<a class="button-2 hover-2" style="color: #ffffff; background-color: #602b7a;" href="#" target="_blank">Page2</a>
+					</li>
+					<li>
+						<!-- CUSTOMIZE button-1,2,3; hover-1,2,3; color; background-color; href -->
+						<a class="button-3 hover-3" style="color: #ffffff; background-color: #602b7a;" href="#" target="_blank">Page3</a>
+					</li>
+				</ui>
+			</nav>
+        </header>
+
+        <main>
+		
+			<h1>Main title</h1>
+		
+			<img class="full-width" src="./src/images/logo.svg">
+		
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non congue leo. Nam pulvinar nibh id felis placerat,
+				in suscipit nibh tristique. Aenean vehicula est at magna placerat pellentesque. Cras sollicitudin, lorem id posuere venenatis,
+				arcu dolor egestas lacus, in vestibulum dolor leo id felis. Suspendisse pharetra, libero vitae tristique mollis,
+				lorem nisl aliquet nibh, vel consectetur nulla dui nec erat. Donec rhoncus, diam nec sodales eleifend, nisl nisi interdum est,
+				at interdum nisl dolor ut risus. Aliquam erat volutpat. Suspendisse vel lectus auctor, viverra nunc nec, varius nulla.
+				Mauris gravida maximus leo, non varius ligula convallis luctus. Maecenas dictum lectus sed arcu mattis,
+				in suscipit sem sollicitudin. Nulla tristique arcu mi, vel gravida erat vestibulum eu.
+			</p>
+			
+			<h2>First subtitle</h2>
+			
+			<img class="float-left" src="./src/images/logo.svg">
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non congue leo. Nam pulvinar nibh id felis placerat,
+				in suscipit nibh tristique. Aenean vehicula est at magna placerat pellentesque. Cras sollicitudin, lorem id posuere venenatis,
+				arcu dolor egestas lacus, in vestibulum dolor leo id felis. Suspendisse pharetra, libero vitae tristique mollis,
+				lorem nisl aliquet nibh, vel consectetur nulla dui nec erat. Donec rhoncus, diam nec sodales eleifend, nisl nisi interdum est,
+				at interdum nisl dolor ut risus. Aliquam erat volutpat. Suspendisse vel lectus auctor, viverra nunc nec, varius nulla.
+				Mauris gravida maximus leo, non varius ligula convallis luctus. Maecenas dictum lectus sed arcu mattis,
+				in suscipit sem sollicitudin. Nulla tristique arcu mi, vel gravida erat vestibulum eu.
+			</p>
+			
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non congue leo. Nam pulvinar nibh id felis placerat,
+				in suscipit nibh tristique. Aenean vehicula est at magna placerat pellentesque. Cras sollicitudin, lorem id posuere venenatis,
+				arcu dolor egestas lacus, in vestibulum dolor leo id felis. Suspendisse pharetra, libero vitae tristique mollis,
+				lorem nisl aliquet nibh, vel consectetur nulla dui nec erat. Donec rhoncus, diam nec sodales eleifend, nisl nisi interdum est,
+				at interdum nisl dolor ut risus. Aliquam erat volutpat. Suspendisse vel lectus auctor, viverra nunc nec, varius nulla.
+				Mauris gravida maximus leo, non varius ligula convallis luctus. Maecenas dictum lectus sed arcu mattis,
+				in suscipit sem sollicitudin. Nulla tristique arcu mi, vel gravida erat vestibulum eu.
+			</p>
+			
+			<h2>Second subtitle</h2>
+			
+			<img class="float-right" src="./src/images/logo.svg">
+			
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non congue leo. Nam pulvinar nibh id felis placerat,
+				in suscipit nibh tristique. Aenean vehicula est at magna placerat pellentesque. Cras sollicitudin, lorem id posuere venenatis,
+				arcu dolor egestas lacus, in vestibulum dolor leo id felis. Suspendisse pharetra, libero vitae tristique mollis,
+				lorem nisl aliquet nibh, vel consectetur nulla dui nec erat. Donec rhoncus, diam nec sodales eleifend, nisl nisi interdum est,
+				at interdum nisl dolor ut risus. Aliquam erat volutpat. Suspendisse vel lectus auctor, viverra nunc nec, varius nulla.
+				Mauris gravida maximus leo, non varius ligula convallis luctus. Maecenas dictum lectus sed arcu mattis,
+				in suscipit sem sollicitudin. Nulla tristique arcu mi, vel gravida erat vestibulum eu.
+			</p>
+			
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non congue leo. Nam pulvinar nibh id felis placerat,
+				in suscipit nibh tristique. Aenean vehicula est at magna placerat pellentesque. Cras sollicitudin, lorem id posuere venenatis,
+				arcu dolor egestas lacus, in vestibulum dolor leo id felis. Suspendisse pharetra, libero vitae tristique mollis,
+				lorem nisl aliquet nibh, vel consectetur nulla dui nec erat. Donec rhoncus, diam nec sodales eleifend, nisl nisi interdum est,
+				at interdum nisl dolor ut risus. Aliquam erat volutpat. Suspendisse vel lectus auctor, viverra nunc nec, varius nulla.
+				Mauris gravida maximus leo, non varius ligula convallis luctus. Maecenas dictum lectus sed arcu mattis,
+				in suscipit sem sollicitudin. Nulla tristique arcu mi, vel gravida erat vestibulum eu.
+			</p>
+		
+		</main>
+
+		<!-- CUSTOMIZE color; background-color -->
+        <footer style="color: #b05cc1; background-color: #ffffff;" >
+            This is Your first web site
+        </footer>
+
+    </body>
+
+</html>

@@ -1,9 +1,9 @@
 'use strict';
 
-const answer = []
-answer[0] = prompt("Напиши свое имя?");
-answer[1] = prompt("Напиши свою фамилию?");
-answer[2] = prompt("Сколько тебе лет?");
+
+<!-- modal window with prompt method on js -->
+const nameUser = prompt("Привет, как тебя зовут?", "");
+alert("Рад вас приветствовать на моём первом сайте, "+ nameUser);
 
 
 const HEADER = document.querySelector('header');

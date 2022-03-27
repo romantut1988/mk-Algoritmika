@@ -1,17 +1,14 @@
 'use strict';
-
-
-<!-- modal window with prompt method on js -->
-const nameUser = prompt("Привет, как тебя зовут?", "");
-alert("Рад приветствовать тебя на моём первом сайте, "+ nameUser);
-
-
+ 
 const HEADER = document.querySelector('header');
 const MAIN = document.querySelector('main');
 const ImagesArr = Array.from(MAIN.querySelectorAll('img'));
 let imagesArrSize = ImagesArr.length;
 
 ImagesArr.forEach(img => selectImageType(img));
+
+window.onload = recalculateHeaderHeight;
+window.addEventListener('resize', recalculateHeaderHeight);
 
 function selectImageType(img) {
 
@@ -23,7 +20,7 @@ function selectImageType(img) {
         || img.className === 'float-right')
         ?  img.className : 'class-error';
 
-    div.className = imgClass; console.log('imgClass =', imgClass);
+    div.className = imgClass;
 
     if(imgClass === 'class-error') div.innerHTML = `
         ERROR in image class name<br><br>
@@ -34,7 +31,8 @@ function selectImageType(img) {
     img.remove();
 }
 
-window.addEventListener('resize', () => {
+function recalculateHeaderHeight() {
     MAIN.style.margin = `${HEADER.clientHeight + 20}px auto 40px`;
     console.log('get resize');
-});
+    console.log('recalculateHeaderHeight');
+}

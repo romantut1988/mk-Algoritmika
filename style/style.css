@@ -25,7 +25,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: auto;
     text-align: center;
 }
 header div {
@@ -34,8 +34,13 @@ header div {
     padding: 25px 5px;
     font-size: 40px;
 }
-header img, header nav {
+header img {
     height: 60px;
+    padding: 20px 5px;
+    vertical-align: bottom;
+}
+header nav {
+    height: auto;
     padding: 20px 5px;
     vertical-align: bottom;
 }
@@ -58,7 +63,8 @@ header a {
     margin: 5px;
     text-decoration: none;
     font-size: 32px;
-	transition: all .6s;
+    filter: none;
+    transition: top .6s, filter .6s;
 }
 header .button-0 {
 	border-radius: 0;
@@ -88,21 +94,41 @@ main {
     margin: 120px auto 40px;
 }
 
-main img {
-	width: 300px;
-	height: auto;
+main div {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* add this if inline-style property is empty */
 }
+
 main .full-width {
-	display: block;
-	margin: 0 auto;
+    width: 800px;
+    height: 400px;
+	margin: 20px 0;
 }
 main .float-left {
-	float: left;
-	margin-left: 30px;
+    float: left;
+    width: 400px;
+    height: 400px;
+	margin: 20px 20px 20px 0;
 }
 main .float-right {
 	float: right;
-	margin-right: 30px
+	width: 400px;
+    height: 400px;
+	margin: 20px 0 20px 20px;
+}
+
+main .class-error {
+    box-sizing: border-box;
+    width: 800px;
+    height: 100px;
+	margin: 20px 0;
+    padding: 20px;
+    border: 5px solid #ff0000;
+    text-align: center;
+    color:#ff0000;
+    background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,13 +141,134 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 30px;
+    height: auto;
     padding: 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 	font-weight: 700;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 860px) {
+    header div {
+        height: 40px;
+        font-size: 30px;
+    }
+    header img {
+        height: 50px;
+    }
+    header a {
+        height: 40px;
+        padding: 6px 24px;
+        font-size: 24px;
+    }
+    header .button-3 {
+        border-radius: 25px;
+    }
+    
+    main {
+        max-width: 600px;
+    }
+    
+    main .full-width {
+        width: 600px;
+        height: 300px;
+    }
+    main .float-left, main .float-right {
+        width: 300px;
+        height: 300px;
+    }
+    
+    main .class-error {
+        width: 600px;
+        height: 120px;
+        padding: 15px;
+    }
+}
 
+@media (max-width: 640px) {
+    header div {
+        height: 30px;
+        padding: 15px 5px;
+        font-size: 20px;
+    }
+    header img {
+        height: 36px;
+        padding: 12px 5px;
+    }
+    header nav {
+        padding: 15px 5px;
+    }
+    header a {
+        height: 30px;
+        padding: 6px 24px;
+        margin: 5px;
+        font-size: 16px;
+    }
+    header .button-2 {
+        border-radius: 10px;
+    }
+    header .button-3 {
+        border-radius: 15px;
+    }
+    
+    main {
+        max-width: 400px;
+    }
+    
+    main .full-width {
+        width: 400px;
+        height: 200px;
+        margin: 20px 0;
+    }
+    main .float-left, main .float-right {
+        width: 200px;
+        height: 200px;
+    }
+    
+    main .class-error {
+        width: 400px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 430px) {
+    main {
+        max-width: 300px;
+    }
+    
+    main .full-width {
+        width: 300px;
+        height: 150px;
+        margin: 10px 0;
+    }
+    main .float-left, main .float-right {
+        width: 150px;
+        height: 150px;
+    }
+    
+    main .class-error {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        max-width: 240px;
+    }
+    
+    main .full-width {
+        width: 240px;
+        height: 120px;
+        margin: 10px 0;
+    }
+    main .float-left, main .float-right {
+        width: 120px;
+        height: 120px;
+    }
+    
+    main .class-error {
+        width: 240px;
+        height: 120px;
+    }
 }

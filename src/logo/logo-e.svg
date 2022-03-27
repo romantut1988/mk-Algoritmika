@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="109px" height="50px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 109.517 50.721"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="753" font-variant="normal" style="fill-rule:nonzero" font-style="italic" font-weight="400">
+	<font-face 
+		font-family="a_LCDNova3DCmObl">
+		<font-face-src>
+			<font-face-name name="a_LCDNova3DCmObl"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="E" horiz-adv-x="707" d="M548.999 750.002l-336.996 0 78.9972 -90.004 246.998 0 51.0023 45.002 -40.0018 45.002zm-40.0018 -330.002l-246.998 0 -50.9959 -45.002 39.9954 -44.9956 247.005 0 49.9959 44.9956 -39.0017 45.002zm-306.995 -53.0024l-50.0022 -44.9956 -39.0017 -314.001 101.005 89.9977 27.9949 224.004 -39.9954 44.9956zm79.9972 285l-78.9972 90.004 -38.0017 -314.001 39.0017 -45.002 50.9959 45.002 27.0012 223.997zm-61.0027 -562l-100.998 -89.9977 337.002 0 50.9959 45.002 -39.9954 44.9956 -247.005 0zm-220.997 -269.999l136 1110 570 0 -91.9977 -746.995 183.995 0 -227.997 -363.004 -570 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"a_LCDNova3DCmObl";font-variant:normal;font-style:italic;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:black}
+    .fil2 {fill:#333333}
+    .fil3 {fill:#666666}
+    .fil1 {fill:#999933}
+    .fnt0 {font-style:italic;font-weight:normal;font-size:44.914px;font-family:'a_LCDNova3DCmObl'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="0,47.693 69.639,22.462 64.73,49.97 "/>
+  <text x="73.676" y="42.636"  class="fil1 fnt0">E</text>
+  <polygon class="fil2" points="2.019,36.333 71.658,11.102 66.748,38.61 "/>
+  <polygon class="fil3" points="4.037,25.231 73.676,0 68.767,27.508 "/>
+ </g>
+</svg>

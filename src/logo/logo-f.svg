@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="108px" height="60px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 115.607 63.498"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="1102" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Magneto">
+		<font-face-src>
+			<font-face-name name="Magneto Полужирный"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="F" horiz-adv-x="819" d="M960.002 687.003l-81.3342 -123.001 -187.166 0 -71.8317 -232 168.332 0c-4.66584,-51.3322 -37.1677,-77.3361 -97.1679,-77.9998l-95.8325 -1.00153 -33.6664 -106.833c-33.6664,-97.5017 -100.335,-146.167 -199.832,-146.167l-339.501 0c14.3314,36.3331 26.8306,62.3331 37.6645,77.499 18.8343,27.0015 40.999,40.5022 66.3352,40.5022 3.83123,0 8.00029,-0.333842 12.1654,-1.00153l228.169 -35.9993 150.332 483.002 -267.666 0c-40.1683,0 -76.5015,-12.1654 -108.503,-36.667 -34.9978,-26.6676 -52.5006,-60.1671 -52.5006,-100.498 0,-28.003 5.66737,-44.0036 17.0021,-47.8348 6.16415,30.165 22.1647,54.4997 47.8308,72.6663 24.1678,17.4989 51.8369,26.3338 83.1704,26.3338 33.8333,0 63.1637,-10.5001 87.9992,-31.3335 26.6676,-22.1687 40.0014,-50.8354 40.0014,-86.0001 0,-38.9999 -15.4998,-69.5027 -46.5034,-91.3336 -26.4967,-18.8343 -59.4994,-28.3329 -99.0001,-28.3329 -60.9977,0 -111.666,14.6652 -152.164,43.9996 -44.8342,32.8318 -67.3367,78.1667 -67.3367,135.834 0,86.167 34.1671,153.667 102.501,202.165 60.334,42.6682 135.166,64.0023 224.668,64.0023l633.835 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Magneto";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil4 {fill:black}
+    .fil3 {fill:#999933}
+    .fil0 {fill:#CCCC33}
+    .fil2 {fill:yellow}
+    .fil1 {fill:#FFFF66}
+    .fnt0 {font-weight:bold;font-size:76.117px;font-family:'Magneto'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <ellipse class="fil0" cx="87.312" cy="45.652" rx="11.613" ry="10.986"/>
+  <ellipse class="fil1" cx="18.051" cy="17.075" rx="18.051" ry="17.075"/>
+  <ellipse class="fil2" cx="41.437" cy="35.218" rx="19.743" ry="18.676"/>
+  <ellipse class="fil3" cx="61.055" cy="52.513" rx="11.613" ry="10.986"/>
+  <ellipse class="fil1" cx="67.05" cy="26.68" rx="19.743" ry="18.676"/>
+  <ellipse class="fil0" cx="42.994" cy="19.591" rx="11.613" ry="10.986"/>
+  <ellipse class="fil3" cx="14.098" cy="41.841" rx="11.613" ry="10.986"/>
+  <ellipse class="fil2" cx="95.864" cy="28.814" rx="19.743" ry="18.676"/>
+  <text x="17.502" y="58.162"  class="fil4 fnt0">F</text>
+ </g>
+</svg>

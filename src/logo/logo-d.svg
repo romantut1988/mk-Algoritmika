@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="120px" height="59px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 120 59"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="1357" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Latin">
+		<font-face-src>
+			<font-face-name name="Latin"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="D" horiz-adv-x="1483" d="M8.00079 668.997l875.991 0c55.3333,0 104.001,-2.33522 146,-7.00124 19.9998,0 40.3312,-2.33522 60.9988,-7.00124 10.6677,-2.66693 29.6679,-8.3325 57.0006,-17.0011 33.9978,-11.999 67.6639,-27.9961 100.998,-47.9959 16.6694,-9.33647 32.8346,-19.9998 48.5001,-32.0032 15.6654,-11.999 31.499,-24.9975 47.5005,-39 28.0006,-25.3292 51.4987,-54.9971 70.4989,-88.9994 19.0002,-33.9978 28.5003,-67.9957 28.5003,-101.998 0,-37.3326 -9.33204,-72.498 -28.0006,-105.501 -18.6685,-32.9983 -42.6665,-62.162 -71.9983,-87.4956 -29.3362,-25.3336 -62.0028,-46.3329 -97.9997,-63.0023 -107.332,-48.0003 -235.999,-71.9983 -385.997,-71.9983l-851.993 0 243.995 156.164 0 356.665 -243.995 156.168zm587.994 -534.996l164.001 0c64.6653,0 116.664,3.49841 156,10.4997 39.3317,6.99682 70.8306,25.4973 94.4969,55.1652 23.6662,29.6635 35.5016,75.333 35.5016,136.832 0,52.1666 -13.1666,93.9971 -39.4998,125.832 -26.3332,31.667 -60.1674,54.1657 -101.503,67.1642 -41.3308,13.0029 -88.3315,19.5 -140.998,19.5l-167.999 0 0 -414.993z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Latin";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:black}
+    .fil1 {fill:red}
+    .fnt0 {font-weight:normal;font-size:64.092px;font-family:'Latin'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="0,0 120,0 54,59 "/>
+  <text x="11.487" y="50"  class="fil1 fnt0">D</text>
+ </g>
+</svg>
